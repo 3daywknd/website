@@ -253,7 +253,7 @@ a {
     position: relative;
     z-index: 2;
     text-align: center;
-    padding: var(--spacing-2xl) 0;
+    padding: var(--spacing-md) 0;
 }
 
 .hero-title {
@@ -272,7 +272,6 @@ a {
 
 .hero-title .line:nth-child(1) { animation-delay: 0.2s; }
 .hero-title .line:nth-child(2) { animation-delay: 0.4s; }
-.hero-title .line:nth-child(3) { animation-delay: 0.6s; }
 
 .gradient-text {
     background: var(--gradient-primary);
@@ -323,7 +322,7 @@ a {
 .section-header {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto var(--spacing-xl);
+    margin: 0 auto var(--spacing-md);
 }
 
 .section-title {
@@ -340,14 +339,14 @@ a {
    ============================================ */
 
 .value-props {
-    padding: var(--spacing-2xl) 0;
+    padding: var(--spacing-lg) 0 var(--spacing-sm) 0;
     background: var(--color-white);
 }
 
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: var(--spacing-lg);
+    gap: var(--spacing-md);
 }
 
 .card {
@@ -451,16 +450,16 @@ a {
    ============================================ */
 
 .features {
-    padding: var(--spacing-2xl) 0 var(--spacing-sm) 0;
+    padding: var(--spacing-sm) 0 var(--spacing-sm) 0;
     background: var(--color-off-white);
 }
 
 .feature-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-xl);
+    gap: var(--spacing-md);
     align-items: center;
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
 }
 
 .feature-row.reverse {
@@ -662,7 +661,7 @@ a {
    ============================================ */
 
 .stats {
-    padding: var(--spacing-sm) 0 var(--spacing-2xl) 0;
+    padding: var(--spacing-sm) 0 var(--spacing-sm) 0;
     background: var(--gradient-mesh), var(--color-white);
 }
 
@@ -707,7 +706,7 @@ a {
 
 .cta-section {
     position: relative;
-    padding: var(--spacing-2xl) 0;
+    padding: var(--spacing-lg) 0;
     background: var(--color-black);
     overflow: hidden;
 }
@@ -746,7 +745,7 @@ a {
    ============================================ */
 
 .footer {
-    padding: var(--spacing-xl) 0 var(--spacing-md);
+    padding: var(--spacing-md) 0 var(--spacing-sm);
     background: var(--color-charcoal);
     color: var(--color-white);
 }

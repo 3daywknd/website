@@ -63,8 +63,8 @@ class CanvasEffect {
                 x: Math.random() * this.canvas.width,
                 y: Math.random() * this.canvas.height,
                 size: Math.random() * 3 + 1,
-                speedX: (Math.random() - 0.5) * 0.5,
-                speedY: (Math.random() - 0.5) * 0.5,
+                speedX: (Math.random() - 0.5) * 0.2,
+                speedY: (Math.random() - 0.5) * 0.2,
                 color: this.getRandomColor(),
                 opacity: Math.random() * 0.5 + 0.2
             });
@@ -77,21 +77,21 @@ class CanvasEffect {
                 y: this.canvas.height * 0.3,
                 length: 0.01,
                 amplitude: 50,
-                frequency: 0.01,
+                frequency: 0.004,
                 color: this.colors.primary
             },
             {
                 y: this.canvas.height * 0.5,
                 length: 0.015,
                 amplitude: 70,
-                frequency: 0.015,
+                frequency: 0.006,
                 color: this.colors.secondary
             },
             {
                 y: this.canvas.height * 0.7,
                 length: 0.02,
                 amplitude: 40,
-                frequency: 0.02,
+                frequency: 0.008,
                 color: this.colors.accent
             }
         ];
@@ -183,7 +183,7 @@ class CanvasEffect {
                 radius: 200,
                 color1: 'rgba(0, 191, 255, 0.15)',
                 color2: 'rgba(0, 191, 255, 0)',
-                speed: 0.001
+                speed: 0.0004
             },
             {
                 x: this.canvas.width * 0.8,
@@ -191,7 +191,7 @@ class CanvasEffect {
                 radius: 250,
                 color1: 'rgba(2, 79, 79, 0.2)',
                 color2: 'rgba(2, 79, 79, 0)',
-                speed: 0.0015
+                speed: 0.0006
             },
             {
                 x: this.canvas.width * 0.5,
@@ -199,7 +199,7 @@ class CanvasEffect {
                 radius: 180,
                 color1: 'rgba(255, 107, 53, 0.1)',
                 color2: 'rgba(255, 107, 53, 0)',
-                speed: 0.002
+                speed: 0.0008
             }
         ];
 
@@ -232,14 +232,14 @@ class CanvasEffect {
                 x: this.canvas.width * 0.15,
                 y: this.canvas.height * 0.2,
                 size: 60,
-                rotation: timestamp * 0.0005,
+                rotation: timestamp * 0.0002,
                 color: 'rgba(0, 191, 255, 0.1)'
             },
             {
                 x: this.canvas.width * 0.85,
                 y: this.canvas.height * 0.8,
                 size: 80,
-                rotation: -timestamp * 0.0007,
+                rotation: -timestamp * 0.0003,
                 color: 'rgba(2, 79, 79, 0.15)'
             }
         ];
